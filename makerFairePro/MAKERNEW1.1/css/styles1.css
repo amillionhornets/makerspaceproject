@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(option1.jpg);
+  background-size: cover;
+}
+
+.cursivFont {
+  font-family: "marck script";
+}
+/* Grid Start */
+
+.grid-container {
+  max-height: 72%;
+  /* background: white; */
+  /* border: 10px solid #14a76c; */
+  display: grid;
+  grid-template-rows: 14% 21% 21% 30%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  align-content: center;
+}
+#programs {
+  font-family: "marck script";
+}
+.vrtallign {
+  vertical-align: auto;
+}
+.grid-item {
+  border: 6px solid #000000;
+  overflow: hidden;
+  object-fit: fill;
+}
+#ham {
+  width: 100%;
+  height: 100%;
+}
+.item-19 {
+  /* row start, column start, row end, column end */
+  grid-area: 1 / 1 / 2 / 5;
+}
+.item-1 {
+  /* row start, column start, row end, column end */
+  grid-area: 2 / 1 / 3 / 3;
+}
+.item-2 {
+  grid-area: 2 / 3 / 4 / 5;
+}
+.item-3 {
+  grid-area: 3 / 1 / 3 / 1;
+}
+.item-4 {
+  /* row start, column start, row end, column end */
+  grid-area: 4 / 3 / 5 / 5;
+}
+.item-5 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.item-6 {
+  grid-area: 4 / 1 / 5 / 3;
+}
+.item-7 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item-8 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.item-9 {
+  grid-area: 2 / 1 / 2 / 1;
+}
+.item-10 {
+  /* row start, column start, row end, column end */
+  grid-area: 3 / 4 / 4 / 5;
+}
+.item-11 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.item-12 {
+  grid-area: 3 / 1 / 3 / 4;
+}
+.item-13 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item-14 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.item-15 {
+  grid-area: 2 / 1 / 2 / 1;
+}
+.item-16 {
+  /* row start, column start, row end, column end */
+  grid-area: 3 / 4 / 4 / 5;
+}
+.item-17 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.item-18 {
+  grid-area: 3 / 1 / 3 / 4;
+}
+.hidden {
+  display: none;
+}
+
+.container {position: relative;
+  width: 95%;
+}
+
+#leftButton {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 7%;
+    width: 5%;
+    transform: translateX(-50%);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%  ;
+    z-index: 500;
+    float: left;
+    padding: 50px;
+}
+
+#rightButton {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 7%;
+  width: 5%;
+  transform: translateX(50%);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%  ;
+  z-index: 500;
+  float: right;
+  padding: 50px;
+}
+

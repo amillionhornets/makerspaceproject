@@ -1,0 +1,250 @@
+@media (max-width: 767px) {
+  header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/smallBanner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: 250%;
+  }
+  body {
+    background-color: #68d1d5;
+  }
+  #leftButton {
+    position: sticky;
+
+    top: 40%;
+    height: 10%;
+    width: 10%;
+    transform: translateX(-50%);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: 500;
+    float: left;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  #rightButton {
+    position: sticky;
+    top: 40%;
+
+    height: 10%;
+    width: 10%;
+    transform: translateX(50%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 500;
+    float: right;
+    padding: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .portfolio-modal .modal-content h2,
+  .portfolio-modal .modal-content .h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  #ProgramsHeader {
+    font-size: 4rem;
+  }
+  .ProgramItem {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-image: url(option1.jpg);
+    background-size: cover;
+  }
+  #Self-Projects {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    /* height: 15; */
+  }
+  #leftButton {
+    position: sticky;
+
+    top: 40%;
+    height: 10%;
+    width: 10%;
+    transform: translateX(-50%);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: 500;
+    float: left;
+    padding: 50px;
+  }
+
+  #rightButton {
+    position: sticky;
+    top: 40%;
+
+    height: 10%;
+    width: 10%;
+    transform: translateX(50%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 500;
+    float: right;
+    padding: 50px;
+  }
+  #ProgramsHeader {
+    font-size: 6rem;
+  }
+  .ProgramItem {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    background-image: url(option1.jpg);
+    background-size: cover;
+  }
+  #leftButton {
+    position: sticky;
+
+    top: 40%;
+    height: 10%;
+    width: 10%;
+    transform: translateX(-50%);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: 500;
+    float: left;
+    padding: 50px;
+  }
+
+  #rightButton {
+    position: sticky;
+    top: 40%;
+
+    height: 10%;
+    width: 10%;
+    transform: translateX(50%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 500;
+    float: right;
+    padding: 50px;
+  }
+  #ProgramsHeader {
+    font-size: 8rem;
+  }
+  .ProgramItem {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-image: url(option1.jpg);
+    background-size: cover;
+  }
+  #leftButton {
+    position: sticky;
+
+    top: 40%;
+    height: 10%;
+    width: 10%;
+    transform: translateX(-50%);
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    z-index: 500;
+    float: left;
+    padding: 50px;
+  }
+
+  #rightButton {
+    position: sticky;
+    top: 40%;
+
+    height: 10%;
+    width: 10%;
+    transform: translateX(50%);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 500;
+    float: right;
+    padding: 50px;
+  }
+  #ProgramsHeader {
+    font-size: 10rem;
+  }
+  .ProgramItem {
+    font-size: 4rem;
+  }
+}
+#IndividualImg {
+  width: 100%;
+}
+.cursivFont {
+  font-family: "marck script";
+}
+
+#programs {
+  font-family: "marck script";
+}
+.vrtallign {
+  vertical-align: auto;
+}
+.grid-item {
+  border: 6px solid #000000;
+  overflow: hidden;
+  object-fit: fill;
+}
+#ham {
+  width: 100%;
+  height: 100%;
+}
+#leftProButton {
+  top: 40%;
+  height: 10%;
+  width: 10%;
+  transform: translateX(-50%);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  z-index: 500;
+  float: left;
+  padding: 50px;
+}
+
+#rightProButton {
+  top: 40%;
+
+  height: 10%;
+  width: 10%;
+  transform: translateX(50%);
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  z-index: 500;
+  float: right;
+  padding: 50px;
+}
+.hidden {
+  display: none;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.programsImages {
+  max-width: 25%;
+  height: auto;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+.programsDiv {
+  display: inline-block;
+  align-items: baseline;
+}
+.textThingyMaBub a {
+  text-decoration: none;
+  color: gray;
+}
